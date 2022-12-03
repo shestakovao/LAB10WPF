@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DATA\tower.jpg" />
+    <None Remove="DATA\tower2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="DATA\tower.jpg" />
+    <Resource Include="DATA\tower2.jpg" />
+  </ItemGroup>
+
+</Project>
